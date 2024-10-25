@@ -114,7 +114,7 @@ class TestCases(unittest.TestCase):
         expected = data.Circle(data.Point(-2,3), 2*math.sqrt(2))
         self.assertEqual(result, expected)
 
-    # Part 8
+    # The Part 8
 
     def test_below_pay_average_1(self):
         input = [Employee('Janet', 15), Employee('Sharon', 26), Employee('Michael', 20)]
@@ -127,6 +127,7 @@ class TestCases(unittest.TestCase):
         result = below_pay_average(input)
         expected = ['Charlie', 'Eli']
         self.assertEqual(result, expected)
+
 
 
 

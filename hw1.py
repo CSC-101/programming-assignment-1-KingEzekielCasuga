@@ -71,6 +71,7 @@ def books_by_author(author_name:str, books:list[Book]) -> list:
                 book_list.append(book.title)
     return book_list
 
+
 # Part 7
 
 # Takes in a rectangle and returns a bounding circle where only the corners of the rectangle make contact
@@ -82,7 +83,7 @@ def circle_bound(rectangle:Rectangle) -> Circle:
     bounding_circle = Circle(bound_center,bound_radius)
     return bounding_circle
 
-# Part 8
+# The Part 8
 
 # Takes in a list of employees and returns the employee names who are paid below the average of the list
 
